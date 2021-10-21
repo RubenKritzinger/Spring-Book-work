@@ -1,5 +1,5 @@
 //tag::recents[]
-package tacos.web.api;
+package com.example.demo.web.api;
 
 import java.util.Optional;
 
@@ -19,8 +19,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import tacos.Taco;
-import tacos.data.TacoRepository;
+import com.example.demo.Taco;
+import com.example.demo.data.TacoRepository;
 
 @RestController
 @RequestMapping(path="/design",                      // <1>

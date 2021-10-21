@@ -1,4 +1,4 @@
-package tacos.web.api;
+package com.example.demo.web.api;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
